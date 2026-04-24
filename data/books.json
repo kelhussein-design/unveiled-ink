@@ -1,0 +1,125 @@
+// This serverless function runs on Netlify's servers (not in the browser).
+// It receives the image from the browser, forwards it to Hive with your
+// secret API key, and returns the result. This avoids CORS issues and
+// keeps your API key hidden from the browser.
+
+exports.handler = async function (event) {
+  // Only allow POST requests
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, body: "Method not allowed" };
+  }
+
+  const HIVE_KEY = process.env.HIVE_API_KEY;
+  const SE_USER = process.env.SIGHTENGINE_API_USER;
+  const SE_SECRET = process.env.SIGHTENGINE_API_SECRET;
+
+  if (!HIVE_KEY && !SE_USER) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "No API keys configured in Netlify environment variables" }),
+    };
+  }
+
+  try {
+    // Parse the incoming request
+    const body = JSON.parse(event.body);
+    const { service, mediaBase64, mediaType, fileName } = body;
+
+    // Convert base64 back to binary
+    const binaryData = Buffer.from(mediaBase64, "base64");
+
+    if (service === "hive") {
+      if (!HIVE_KEY) {
+        return { statusCode: 500, body: JSON.stringify({ error: "HIVE_API_KEY not set" }) };
+      }
+
+      // Build multipart form data manually for Hive
+      const boundary = "----FakeCheckBoundary" + Date.now();
+      const fieldName = "media";
+
+      const preamble = `--${boundary}\r\nContent-Disposition: form-data; name="${fieldName}"; filename="${fileName}"\r\nContent-Type: ${mediaType}\r\n\r\n`;
+      const epilogue = `\r\n--${boundary}--\r\n`;
+
+      const payload = Buffer.concat([
+        Buffer.from(preamble),
+        binaryData,
+        Buffer.from(epilogue),
+      ]);
+
+      const resp = await fetch("https://api.thehive.ai/api/v2/task/sync", {
+        method: "POST",
+        headers: {
+          authorization: "Bearer " + HIVE_KEY,
+          "Content-Type": "multipart/form-data; boundary=" + boundary,
+        },
+        body: payload,
+      });
+
+      const data = await resp.json();
+      return {
+        statusCode: 200,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      };
+
+    } else if (service === "sightengine") {
+      if (!SE_USER || !SE_SECRET) {
+        return { statusCode: 500, body: JSON.stringify({ error: "Sightengine keys not set" }) };
+      }
+
+      const boundary = "----FakeCheckBoundary" + Date.now();
+
+      // Determine field name and endpoint based on media type
+      let fieldName = "media";
+      let endpoint = "https://api.sightengine.com/1.0/check.json";
+
+      if (mediaType && mediaType.startsWith("audio/")) {
+        fieldName = "audio";
+        endpoint = "https://api.sightengine.com/1.0/audio/check.json";
+      } else if (mediaType && mediaType.startsWith("video/")) {
+        endpoint = "https://api.sightengine.com/1.0/video/check-sync.json";
+      }
+
+      // Build multipart body
+      const parts = [];
+
+      // File part
+      parts.push(`--${boundary}\r\nContent-Disposition: form-data; name="${fieldName}"; filename="${fileName}"\r\nContent-Type: ${mediaType}\r\n\r\n`);
+
+      // Text fields
+      const fields = { models: "genai", api_user: SE_USER, api_secret: SE_SECRET };
+      let textParts = "";
+      for (const [key, val] of Object.entries(fields)) {
+        textParts += `\r\n--${boundary}\r\nContent-Disposition: form-data; name="${key}"\r\n\r\n${val}`;
+      }
+
+      const payload = Buffer.concat([
+        Buffer.from(parts[0]),
+        binaryData,
+        Buffer.from(textParts),
+        Buffer.from(`\r\n--${boundary}--\r\n`),
+      ]);
+
+      const resp = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "multipart/form-data; boundary=" + boundary },
+        body: payload,
+      });
+
+      const data = await resp.json();
+      return {
+        statusCode: 200,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      };
+
+    } else {
+      return { statusCode: 400, body: JSON.stringify({ error: "Unknown service: " + service }) };
+    }
+  } catch (err) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: err.message }),
+    };
+  }
+};
