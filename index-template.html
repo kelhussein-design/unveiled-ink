@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="HTML_LANG_PLACEHOLDER">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Unveiled Ink — Sulay Hernandez | Book Development &amp; Editorial Consulting</title>
-<meta name="description" content="Book and manuscript editing, ghostwriting, collaboration, and editorial consulting by Sulay Hernandez — over 20 years in trade publishing.">
+<title>PAGE_TITLE_PLACEHOLDER</title>
+<meta name="description" content="PAGE_DESCRIPTION_PLACEHOLDER">
 <meta name="author" content="Sulay Hernandez">
-<meta name="keywords" content="book editor, manuscript editing, ghostwriting, editorial consulting, developmental editing, book development, Sulay Hernandez, Unveiled Ink, Brooklyn editor">
-<meta property="og:title" content="Unveiled Ink — Sulay Hernandez | Book Development &amp; Editorial Consulting">
-<meta property="og:description" content="Over 20 years shaping bestsellers, memoirs, and award-winning narratives. Book development, editing, ghostwriting, and editorial consulting.">
+<meta name="keywords" content="book editor, manuscript editing, ghostwriting, editorial consulting, developmental editing, book development, Sulay Hernandez, Unveiled Ink, Brooklyn editor, editor de libros, edición, escritura fantasma, consultoría editorial">
+<meta property="og:title" content="OG_TITLE_PLACEHOLDER">
+<meta property="og:description" content="OG_DESCRIPTION_PLACEHOLDER">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://unveiledink.com">
 <meta property="og:image" content="https://unveiledink.com/images/headshot.webp">
 <meta property="og:site_name" content="Unveiled Ink">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="LOCALE_PLACEHOLDER">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Unveiled Ink — Sulay Hernandez">
-<meta name="twitter:description" content="Book development &amp; editorial consulting. Over 20 years shaping bestsellers, memoirs, and award-winning narratives.">
+<meta name="twitter:title" content="TWITTER_TITLE_PLACEHOLDER">
+<meta name="twitter:description" content="TWITTER_DESCRIPTION_PLACEHOLDER">
 <meta name="twitter:image" content="https://unveiledink.com/images/headshot.webp">
 <link rel="canonical" href="https://unveiledink.com">
+<link rel="alternate" hreflang="en" href="https://unveiledink.com/">
+<link rel="alternate" hreflang="es" href="https://unveiledink.com/?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://unveiledink.com/">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -30,7 +35,8 @@
   "address": {"@type": "PostalAddress", "addressLocality": "Brooklyn", "addressRegion": "NY", "addressCountry": "US"},
   "founder": {"@type": "Person", "name": "Sulay Hernandez", "jobTitle": "Book Editor & Editorial Consultant", "alumniOf": {"@type": "CollegeOrUniversity", "name": "Sarah Lawrence College"}, "knowsLanguage": ["English", "Spanish"]},
   "serviceType": ["Book Editing", "Ghostwriting", "Editorial Consulting", "Developmental Editing", "Manuscript Evaluation"],
-  "areaServed": "Worldwide"
+  "areaServed": "Worldwide",
+  "availableLanguage": ["English", "Spanish"]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,16 +94,22 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* NAV */
 .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 0 clamp(24px, 4vw, 60px); transition: background 0.4s, box-shadow 0.4s; }
 .nav.scrolled { background: rgba(245, 240, 235, 0.95); backdrop-filter: blur(10px); box-shadow: 0 1px 0 var(--rule); }
-.nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 70px; }
+.nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 70px; gap: 16px; }
 .nav-logo { display: flex; flex-direction: column; align-items: center; line-height: 1; gap: 0; }
 .nav-logo-main { font-family: var(--font-display); font-size: 1.3rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); }
 .nav-logo-rule { width: 100%; height: 1px; background: var(--ink); margin: 3px 0 2px; opacity: 0.4; }
 .nav-logo-sub { font-family: var(--font-sans); font-size: 0.68rem; font-weight: 400; letter-spacing: 0.35em; text-transform: uppercase; color: var(--gray-warm); text-align: center; }
+.nav-right { display: flex; align-items: center; gap: clamp(12px, 2vw, 20px); }
 .nav-links { display: flex; gap: clamp(16px, 2.5vw, 32px); list-style: none; }
 .nav-links a { font-family: var(--font-sans); font-size: 0.72rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray-mid); transition: color 0.3s; position: relative; }
 .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 1px; background: var(--blue-accent); transition: width 0.3s; }
 .nav-links a:hover, .nav-links a:focus-visible { color: var(--ink); }
 .nav-links a:hover::after, .nav-links a:focus-visible::after { width: 100%; }
+.lang-toggle { display: flex; align-items: center; gap: 6px; font-family: var(--font-sans); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.lang-toggle button { padding: 4px 8px; color: var(--gray-mid); transition: color 0.3s; font-size: inherit; letter-spacing: inherit; text-transform: inherit; font-family: inherit; }
+.lang-toggle button:hover { color: var(--ink); }
+.lang-toggle button.active { color: var(--ink); border-bottom: 1px solid var(--blue-accent); }
+.lang-toggle .lang-divider { color: var(--rule); }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; padding: 4px; }
 .nav-toggle span { width: 22px; height: 1.5px; background: var(--ink); transition: transform 0.3s, opacity 0.3s; }
 .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(4px, 5px); }
@@ -156,52 +168,44 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .testimonial-arrow:hover { border-color: var(--ink); color: var(--ink); }
 
 /* PHILOSOPHY */
-.philosophy { padding: var(--section-pad) 0; background: transparent; position: relative; }
+.philosophy { padding: var(--section-pad) 0; background: transparent; }
 .philosophy-inner { max-width: 760px; margin: 0 auto; }
-.philosophy blockquote { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.7rem); font-weight: 300; font-style: italic; color: var(--blue-accent); line-height: 1.5; margin-bottom: 2.5rem; padding-left: 24px; border-left: 2px solid var(--blue-mist); }
-.philosophy-text p { font-size: 0.95rem; color: var(--gray-mid); margin-bottom: 1.25rem; }
+.philosophy blockquote { font-family: var(--font-display); font-size: clamp(1.3rem, 2.3vw, 1.6rem); font-style: italic; font-weight: 300; line-height: 1.55; color: var(--gray-dark); padding: 1.5rem 0 1.5rem 2rem; border-left: 2px solid var(--blue-mist); margin: 2rem 0; }
+.philosophy-text p { font-size: 0.92rem; color: var(--gray-mid); margin-bottom: 1.25rem; line-height: 1.85; }
 
 /* ABOUT */
 .about { padding: var(--section-pad) 0; background: transparent; }
-.about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: clamp(40px, 6vw, 80px); align-items: start; }
+.about-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(40px, 6vw, 80px); align-items: start; }
 .about-photo-wrap { position: relative; }
-.about-photo-wrap::before { content: ''; position: absolute; top: 12px; left: 12px; right: -12px; bottom: -12px; border: 1px solid var(--blue-mist); z-index: 0; }
-.about-photo { position: relative; z-index: 1; width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: center 20%; filter: grayscale(10%) contrast(1.02); }
-.about-photo-credit { font-family: var(--font-sans); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--gray-warm); margin-top: 12px; position: relative; z-index: 1; }
-.about-text p { font-size: 0.95rem; color: var(--gray-mid); margin-bottom: 1.25rem; }
-.about-text p strong { color: var(--ink); font-weight: 700; }
-.about-details { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--beige); }
+.about-photo { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: center 20%; filter: grayscale(15%) contrast(1.05); border: 1px solid var(--beige); }
+.about-photo-credit { font-family: var(--font-sans); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray-warm); margin-top: 0.8rem; text-align: right; }
+.about-text p { font-size: 0.92rem; color: var(--gray-mid); margin-bottom: 1.25rem; line-height: 1.8; }
+.about-text p strong { color: var(--ink); font-weight: 600; }
+.about-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--beige); }
 .about-detail-label { font-family: var(--font-sans); font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue-accent); margin-bottom: 4px; }
-.about-detail-value { font-family: var(--font-display); font-size: 1rem; font-weight: 500; color: var(--ink); }
-@media (max-width: 768px) {
-  .about-grid { grid-template-columns: 1fr; }
-  .about-photo-wrap { max-width: 350px; margin: 0 auto; }
-  .about-details { grid-template-columns: 1fr; }
-}
+.about-detail-value { font-family: var(--font-display); font-size: 1rem; color: var(--ink); line-height: 1.3; }
+@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; } .about-photo-wrap { max-width: 400px; margin: 0 auto; } }
 
 /* SKILLS */
-.skills { padding: clamp(50px, 6vw, 80px) 0; background: rgba(237, 230, 220, 0.25); }
-.skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 2rem; }
-.skill-card { background: var(--white); padding: clamp(24px, 2vw, 36px); border: 1px solid var(--beige); transition: transform 0.3s, box-shadow 0.3s; }
-.skill-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(42, 37, 35, 0.06); }
-.skill-card h3 { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--ink); margin-bottom: 0.5rem; }
-.skill-card p { font-size: 0.82rem; color: var(--gray-mid); line-height: 1.65; }
-@media (max-width: 900px) { .skills-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 520px) { .skills-grid { grid-template-columns: 1fr; } }
+.skills { padding: var(--section-pad) 0; background: transparent; }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(20px, 3vw, 40px); max-width: 1000px; margin: 2rem auto 0; }
+.skill-card { text-align: center; }
+.skill-card h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.75rem; }
+.skill-card p { font-size: 0.88rem; color: var(--gray-mid); line-height: 1.65; }
 
 /* SERVICES */
 .services { padding: var(--section-pad) 0; background: transparent; }
-.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 2rem; }
-.service-card { padding: clamp(28px, 3vw, 44px); border: 1px solid var(--beige); position: relative; transition: transform 0.3s, box-shadow 0.3s; background: var(--white); }
-.service-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(42, 37, 35, 0.06); }
-.service-number { font-family: var(--font-display); font-size: 3rem; font-weight: 300; color: var(--blue-mist); line-height: 1; margin-bottom: 1rem; }
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 32px); margin-top: 2rem; }
+.service-card { background: var(--white); padding: clamp(28px, 4vw, 44px) clamp(24px, 3vw, 32px); border: 1px solid var(--beige); position: relative; transition: transform 0.35s, box-shadow 0.35s; }
+.service-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(42, 37, 35, 0.08); }
+.service-number { font-family: var(--font-display); font-size: 2.8rem; font-weight: 300; color: var(--blue-mist); line-height: 1; margin-bottom: 1rem; }
 .service-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--ink); margin-bottom: 0.75rem; }
 .service-card p { font-size: 0.85rem; color: var(--gray-mid); margin-bottom: 1.25rem; line-height: 1.65; }
 .service-features { list-style: none; padding: 0; }
 .service-features li { font-family: var(--font-sans); font-size: 0.72rem; letter-spacing: 0.03em; color: var(--gray-mid); padding: 6px 0; border-bottom: 1px solid var(--beige-light); display: flex; align-items: center; gap: 8px; }
 .service-features li::before { content: ''; width: 4px; height: 4px; background: var(--blue-accent); border-radius: 50%; flex-shrink: 0; }
 .services-note { max-width: 700px; margin: 2.5rem auto 0; text-align: center; font-size: 0.85rem; font-style: italic; color: var(--gray-warm); }
-@media (max-width: 900px) { .services-grid { grid-template-columns: 1fr; max-width: 520px; } }
+@media (max-width: 900px) { .services-grid { grid-template-columns: 1fr; max-width: 520px; margin-left: auto; margin-right: auto; } }
 
 /* CONTACT */
 .contact { padding: var(--section-pad) 0; background: transparent; }
@@ -272,52 +276,42 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 </head>
 <body>
 
-<a href="#portfolio" class="skip-to-content">Skip to content</a>
+<a href="#portfolio" class="skip-to-content" id="skipLink">Skip to content</a>
 
 <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="#hero" class="nav-logo" aria-label="Unveiled Ink — Home">
+    <a href="#hero" class="nav-logo" id="navLogo" aria-label="Unveiled Ink — Home">
       <span class="nav-logo-main">Unveiled</span>
       <span class="nav-logo-rule"></span>
       <span class="nav-logo-sub">Ink</span>
     </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="navLinks" role="list">
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#philosophy">Philosophy</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Get in Touch</a></li>
-    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle" role="group" aria-label="Language" id="langToggle">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <span class="lang-divider" aria-hidden="true">|</span>
+        <button type="button" data-lang="es">ES</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list"></ul>
+    </div>
   </div>
 </nav>
 
 <section class="hero" id="hero" aria-label="Introduction">
   <div class="hero-content">
-    <p class="hero-eyebrow">Book Development &amp; Editorial Consulting</p>
-    <h1>You have a story.<em>I can help you tell it.</em></h1>
+    <p class="hero-eyebrow" id="heroEyebrow"></p>
+    <h1 id="heroHeadline"></h1>
   </div>
-  <div class="hero-scroll" aria-hidden="true">Scroll</div>
+  <div class="hero-scroll" aria-hidden="true" id="heroScroll"></div>
 </section>
 
 <div class="page-gradient">
 <section class="portfolio" id="portfolio" aria-label="Portfolio">
   <div class="container">
-    <div class="reveal">
-      <span class="section-label">Selected Projects</span>
-      <h2 class="section-title">A portfolio spanning genres</h2>
-      <p style="font-size:0.92rem; color: var(--gray-mid); margin-bottom: 1rem; max-width: 600px;">Fiction, nonfiction, memoir, ghostwriting, and more — projects that have reached bestseller lists and earned critical acclaim.</p>
-    </div>
-    <div class="portfolio-filters reveal">
-      <button class="filter-btn active" data-filter="all">All Projects</button>
-      <button class="filter-btn" data-filter="recent">Recent &amp; Forthcoming</button>
-      <button class="filter-btn" data-filter="literary">Literary Fiction</button>
-      <button class="filter-btn" data-filter="popular">Popular Fiction</button>
-      <button class="filter-btn" data-filter="nonfiction">Nonfiction</button>
-    </div>
+    <div class="reveal" id="portfolioHeader"></div>
+    <div class="portfolio-filters reveal" id="portfolioFilters"></div>
     <div class="portfolio-grid" id="portfolioGrid"></div>
   </div>
 </section>
@@ -325,15 +319,15 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 <section class="testimonials" id="testimonials" aria-label="Testimonials">
   <div class="container">
     <div style="text-align:center;" class="reveal">
-      <span class="section-label">Testimonials</span>
+      <span class="section-label" id="testimonialsLabel"></span>
     </div>
     <div class="testimonials-slider reveal">
       <div class="testimonial-track" id="testimonialTrack"></div>
       <div class="testimonial-arrows">
-        <button class="testimonial-arrow" id="prevBtn" aria-label="Previous testimonial">&#8592;</button>
-        <button class="testimonial-arrow" id="nextBtn" aria-label="Next testimonial">&#8594;</button>
+        <button class="testimonial-arrow" id="prevBtn">&#8592;</button>
+        <button class="testimonial-arrow" id="nextBtn">&#8594;</button>
       </div>
-      <div class="testimonial-controls" id="testimonialDots" role="tablist" aria-label="Testimonial navigation"></div>
+      <div class="testimonial-controls" id="testimonialDots" role="tablist"></div>
     </div>
   </div>
 </section>
@@ -352,10 +346,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 <section class="skills" id="skills" aria-label="Key Skills">
   <div class="container">
-    <div class="reveal" style="text-align:center; margin-bottom: 0.5rem;">
-      <span class="section-label">Core Expertise</span>
-      <h2 class="section-title">Key Skills</h2>
-    </div>
+    <div class="reveal" style="text-align:center; margin-bottom: 0.5rem;" id="skillsHeader"></div>
     <div class="skills-grid" id="skillsGrid"></div>
   </div>
 </section>
@@ -372,45 +363,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   <div class="container">
     <div class="contact-grid">
       <div class="contact-info reveal" id="contactInfo"></div>
-      <form class="contact-form reveal" style="transition-delay: 0.15s;" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact">
-        <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
-        <div class="form-row">
-          <div class="form-field">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" required autocomplete="given-name">
-          </div>
-          <div class="form-field">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" required autocomplete="family-name">
-          </div>
-        </div>
-        <div class="form-field">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" required autocomplete="email">
-        </div>
-        <div class="form-field">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject">
-        </div>
-        <div class="form-field">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <div class="form-field">
-          <label for="referral">How did you hear about me?</label>
-          <select id="referral" name="referral">
-            <option value="">Select an option</option>
-            <option value="search">Web Search</option>
-            <option value="referral">Referral</option>
-            <option value="social">Social Media</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div class="form-submit">
-          <button type="submit" class="btn btn-filled">Send Message</button>
-        </div>
-      </form>
+      <form class="contact-form reveal" style="transition-delay: 0.15s;" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contactForm"></form>
     </div>
   </div>
 </section>
@@ -420,23 +373,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     <div class="footer-logo-main">Unveiled</div>
     <div class="footer-logo-rule"></div>
     <div class="footer-logo-sub">Ink</div>
-    <p class="footer-tagline">Book Development &amp; Editorial Consulting</p>
-    <ul class="footer-links" role="list">
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#philosophy">Philosophy</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <p class="footer-copy">&copy; 2026 Unveiled Ink. All rights reserved.</p>
+    <p class="footer-tagline" id="footerTagline"></p>
+    <ul class="footer-links" id="footerLinks" role="list"></ul>
+    <p class="footer-copy" id="footerCopy"></p>
   </div>
 </footer>
 </div>
 
-<div class="book-modal-overlay" id="bookModal" role="dialog" aria-modal="true" aria-label="Book details">
+<div class="book-modal-overlay" id="bookModal" role="dialog" aria-modal="true">
   <div class="book-modal">
-    <button class="book-modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <button class="book-modal-close" id="modalClose">&times;</button>
     <div class="book-modal-header">
       <div class="book-modal-cover"><img id="modalCover" src="" alt=""></div>
       <div class="book-modal-info">
@@ -452,71 +398,171 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 </div>
 
 <script>
-// === DATA ===
-const bookData = BOOK_DATA_PLACEHOLDER;
-const testimonialData = TESTIMONIAL_DATA_PLACEHOLDER;
-const contentData = CONTENT_DATA_PLACEHOLDER;
+// === DATA (bilingual) ===
+// All content for EN and ES. Rendered via render(lang).
+// Exposed on window so preview tooling (e.g. Decap CMS) and debug scripts
+// can inspect the loaded content.
+const DATA = {
+  en: {
+    content: CONTENT_EN_PLACEHOLDER,
+    books: BOOKS_EN_PLACEHOLDER,
+    testimonials: TESTIMONIALS_EN_PLACEHOLDER
+  },
+  es: {
+    content: CONTENT_ES_PLACEHOLDER,
+    books: BOOKS_ES_PLACEHOLDER,
+    testimonials: TESTIMONIALS_ES_PLACEHOLDER
+  }
+};
+window.DATA = DATA;
 
-// === NAV ===
-const nav = document.getElementById('nav');
-window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
-const toggle = document.getElementById('navToggle');
-const links = document.getElementById('navLinks');
-toggle.addEventListener('click', () => {
-  const open = !toggle.classList.contains('open');
-  toggle.classList.toggle('open');
-  links.classList.toggle('open');
-  toggle.setAttribute('aria-expanded', open);
-});
-links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-  toggle.classList.remove('open');
-  links.classList.remove('open');
-  toggle.setAttribute('aria-expanded', 'false');
-}));
+// === LANGUAGE RESOLUTION ===
+function detectLang() {
+  const params = new URLSearchParams(window.location.search);
+  const fromUrl = params.get('lang');
+  if (fromUrl === 'es' || fromUrl === 'en') return fromUrl;
+  try {
+    const fromStorage = localStorage.getItem('ui_lang');
+    if (fromStorage === 'es' || fromStorage === 'en') return fromStorage;
+  } catch (e) {}
+  return 'en';
+}
 
-// === SCROLL REVEAL ===
-const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-reveals.forEach(el => observer.observe(el));
+let currentLang = detectLang();
 
-// === SMOOTH SCROLL ===
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      const top = target.getBoundingClientRect().top + window.pageYOffset - 70;
-      window.scrollTo({ top, behavior: 'smooth' });
-    }
-  });
-});
-
-// === PORTFOLIO ===
-function buildPortfolio() {
-  const grid = document.getElementById('portfolioGrid');
-  const priority = bookData.priority;
-  const books = bookData.books;
+// === SHARED RANDOM ORDER FOR NON-PRIORITY BOOKS ===
+// Computed once so EN/ES renders match.
+function computeBookOrder(books, priority) {
   const nonPriority = Object.keys(books).filter(k => !priority.includes(k));
   for (let i = nonPriority.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [nonPriority[i], nonPriority[j]] = [nonPriority[j], nonPriority[i]];
   }
-  const ordered = [...priority, ...nonPriority];
-  ordered.forEach(slug => {
-    const book = books[slug];
+  return [...priority, ...nonPriority];
+}
+const bookOrder = computeBookOrder(DATA.en.books.books, DATA.en.books.priority);
+
+// === SCROLL REVEAL OBSERVER ===
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+function observeReveals(root) {
+  (root || document).querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+}
+
+// === UTILITY: safe text for attributes ===
+function escapeAttr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+// === RENDER HEAD META ===
+function renderMeta(content) {
+  const m = content.meta;
+  document.documentElement.lang = m.html_lang;
+  document.title = m.page_title;
+  setMeta('name', 'description', m.page_description);
+  setMeta('property', 'og:title', m.og_title);
+  setMeta('property', 'og:description', m.og_description);
+  setMeta('property', 'og:locale', m.locale);
+  setMeta('name', 'twitter:title', m.twitter_title);
+  setMeta('name', 'twitter:description', m.twitter_description);
+}
+function setMeta(attr, key, value) {
+  const el = document.querySelector(`meta[${attr}="${key}"]`);
+  if (el) el.setAttribute('content', value);
+}
+
+// === RENDER NAV + UI CHROME ===
+function renderChrome(content) {
+  const ui = content.ui;
+  // Skip link
+  document.getElementById('skipLink').textContent = ui.skip_to_content;
+  // Nav logo aria
+  document.getElementById('navLogo').setAttribute('aria-label', ui.nav.home_aria);
+  // Nav toggle aria
+  document.getElementById('navToggle').setAttribute('aria-label', ui.nav.toggle_aria);
+  // Nav links
+  const navLinksEl = document.getElementById('navLinks');
+  navLinksEl.innerHTML = [
+    ['#portfolio', ui.nav.portfolio],
+    ['#testimonials', ui.nav.testimonials],
+    ['#philosophy', ui.nav.philosophy],
+    ['#about', ui.nav.about],
+    ['#services', ui.nav.services],
+    ['#contact', ui.nav.contact]
+  ].map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('');
+  // Lang toggle aria
+  document.getElementById('langToggle').setAttribute('aria-label', ui.nav.lang_toggle_aria);
+  // Hero
+  document.getElementById('heroEyebrow').textContent = content.hero.eyebrow;
+  document.getElementById('heroHeadline').innerHTML = content.hero.headline_1 + '<em>' + content.hero.headline_2 + '</em>';
+  document.getElementById('heroScroll').textContent = ui.hero.scroll;
+  // Footer
+  document.getElementById('footerTagline').textContent = ui.footer.tagline;
+  document.getElementById('footerCopy').textContent = ui.footer.copyright;
+  const footerLinksEl = document.getElementById('footerLinks');
+  footerLinksEl.innerHTML = [
+    ['#portfolio', ui.nav.portfolio],
+    ['#testimonials', ui.nav.testimonials],
+    ['#philosophy', ui.nav.philosophy],
+    ['#about', ui.nav.about],
+    ['#services', ui.nav.services],
+    ['#contact', ui.nav.contact]
+  ].map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('');
+  // Modal aria
+  document.getElementById('bookModal').setAttribute('aria-label', ui.modal.dialog_aria);
+  document.getElementById('modalClose').setAttribute('aria-label', ui.modal.close_aria);
+  // Testimonials aria
+  document.getElementById('prevBtn').setAttribute('aria-label', ui.testimonials.prev_aria);
+  document.getElementById('nextBtn').setAttribute('aria-label', ui.testimonials.next_aria);
+  document.getElementById('testimonialDots').setAttribute('aria-label', ui.testimonials.nav_aria);
+  document.getElementById('testimonialsLabel').textContent = ui.testimonials.section_label;
+}
+
+// === RENDER PORTFOLIO ===
+function renderPortfolio(content, books) {
+  const uiP = content.ui.portfolio;
+  // Header
+  document.getElementById('portfolioHeader').innerHTML = `
+    <span class="section-label">${uiP.section_label}</span>
+    <h2 class="section-title">${uiP.title}</h2>
+    <p style="font-size:0.92rem; color: var(--gray-mid); margin-bottom: 1rem; max-width: 600px;">${uiP.subtitle}</p>`;
+  // Filters
+  const filters = [
+    ['all', uiP.filters.all],
+    ['recent', uiP.filters.recent],
+    ['literary', uiP.filters.literary],
+    ['popular', uiP.filters.popular],
+    ['nonfiction', uiP.filters.nonfiction]
+  ];
+  const filtersEl = document.getElementById('portfolioFilters');
+  filtersEl.innerHTML = filters.map(([val, label], i) => `<button class="filter-btn${i===0?' active':''}" data-filter="${val}">${label}</button>`).join('');
+  filtersEl.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.book-card').forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.category.includes(filter)) ? '' : 'none';
+      });
+    });
+  });
+  // Grid
+  const grid = document.getElementById('portfolioGrid');
+  grid.innerHTML = '';
+  bookOrder.forEach(slug => {
+    const book = books.books[slug];
     if (!book) return;
     const card = document.createElement('div');
     card.className = 'book-card';
     card.dataset.category = book.category;
+    card.dataset.slug = slug;
     card.setAttribute('role', 'button');
     card.setAttribute('tabindex', '0');
     card.setAttribute('aria-label', book.title);
     if (book.cover) {
-      card.innerHTML = '<img src="images/covers/' + book.cover + '" alt="' + book.title + '" loading="lazy"><div class="book-card-overlay"><span>' + book.title + '</span></div>';
+      card.innerHTML = '<img src="images/covers/' + book.cover + '" alt="' + escapeAttr(book.title) + '" loading="lazy"><div class="book-card-overlay"><span>' + book.title + '</span></div>';
     } else {
-      card.innerHTML = '<div class="book-placeholder"><span>' + book.title + '<br>Forthcoming</span></div><div class="book-card-overlay"><span>' + book.title + '</span></div>';
+      card.innerHTML = '<div class="book-placeholder"><span>' + book.title + '<br>' + uiP.forthcoming_label + '</span></div><div class="book-card-overlay"><span>' + book.title + '</span></div>';
     }
     card.addEventListener('click', () => openBookModal(slug));
     card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openBookModal(slug); } });
@@ -524,28 +570,120 @@ function buildPortfolio() {
   });
 }
 
-// === FILTERS ===
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const filter = btn.dataset.filter;
-    document.querySelectorAll('.book-card').forEach(card => {
-      card.style.display = (filter === 'all' || card.dataset.category.includes(filter)) ? '' : 'none';
-    });
+// === RENDER TESTIMONIALS ===
+let testimonialState = null;
+function renderTestimonials(content, testimonials) {
+  const ui = content.ui.testimonials;
+  const track = document.getElementById('testimonialTrack');
+  const dotsContainer = document.getElementById('testimonialDots');
+  track.innerHTML = '';
+  dotsContainer.innerHTML = '';
+  testimonials.testimonials.forEach((t, i) => {
+    const slide = document.createElement('div');
+    slide.className = 'testimonial-slide';
+    slide.innerHTML = '<p class="testimonial-quote">' + t.quote + '</p><p class="testimonial-author">' + t.author + '</p><p class="testimonial-work">' + t.work + '</p>';
+    track.appendChild(slide);
+    const dot = document.createElement('button');
+    dot.className = 'testimonial-dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', ui.goto_aria + ' ' + (i + 1));
+    dot.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(dot);
   });
-});
+  // Reset state on re-render
+  if (testimonialState && testimonialState.autoplay) clearInterval(testimonialState.autoplay);
+  let current = 0;
+  const slides = track.querySelectorAll('.testimonial-slide');
+  function goTo(index) {
+    current = index;
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dotsContainer.querySelectorAll('.testimonial-dot').forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+  function startAutoplay() { return setInterval(() => goTo(current === slides.length - 1 ? 0 : current + 1), 6000); }
+  function resetAutoplay() { clearInterval(testimonialState.autoplay); testimonialState.autoplay = startAutoplay(); }
+  // Reattach arrow handlers (remove old ones by cloning)
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const newPrev = prevBtn.cloneNode(true);
+  const newNext = nextBtn.cloneNode(true);
+  prevBtn.parentNode.replaceChild(newPrev, prevBtn);
+  nextBtn.parentNode.replaceChild(newNext, nextBtn);
+  newPrev.addEventListener('click', () => { goTo(current === 0 ? slides.length - 1 : current - 1); resetAutoplay(); });
+  newNext.addEventListener('click', () => { goTo(current === slides.length - 1 ? 0 : current + 1); resetAutoplay(); });
+  testimonialState = { autoplay: startAutoplay(), goTo };
+}
+
+// === RENDER PHILOSOPHY ===
+function renderPhilosophy(content) {
+  const c = content.philosophy;
+  const el = document.getElementById('philosophyContent');
+  el.innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><blockquote>\u201C' + c.quote + '\u201D</blockquote><div class="philosophy-text">' + c.paragraphs.map(p => '<p>' + p + '</p>').join('') + '</div>';
+}
+
+// === RENDER ABOUT ===
+function renderAbout(content) {
+  const c = content.about;
+  const labels = content.ui.about_labels;
+  const el = document.getElementById('aboutContent');
+  el.innerHTML = '<div class="about-photo-wrap reveal"><img src="' + c.photo + '" alt="Sulay Hernandez" class="about-photo"><p class="about-photo-credit">' + c.photo_credit + '</p></div><div class="about-text reveal" style="transition-delay: 0.15s;"><span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2>' + c.paragraphs.map(p => '<p>' + p + '</p>').join('') + '<div class="about-details"><div><div class="about-detail-label">' + labels.education + '</div><div class="about-detail-value">' + c.details.education + '</div></div><div><div class="about-detail-label">' + labels.languages + '</div><div class="about-detail-value">' + c.details.languages + '</div></div><div><div class="about-detail-label">' + labels.location + '</div><div class="about-detail-value">' + c.details.location + '</div></div></div></div>';
+  observeReveals(el);
+}
+
+// === RENDER SKILLS ===
+function renderSkills(content) {
+  const c = content.skills;
+  document.getElementById('skillsHeader').innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2>';
+  const grid = document.getElementById('skillsGrid');
+  grid.innerHTML = '';
+  c.items.forEach((s, i) => {
+    const card = document.createElement('div');
+    card.className = 'skill-card reveal';
+    card.style.transitionDelay = (i * 0.1) + 's';
+    card.innerHTML = '<h3>' + s.name + '</h3><p>' + s.description + '</p>';
+    grid.appendChild(card);
+    revealObserver.observe(card);
+  });
+}
+
+// === RENDER SERVICES ===
+function renderServices(content) {
+  const c = content.services;
+  document.getElementById('servicesHeader').innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><p style="font-size: 0.88rem; color: var(--gray-mid); margin-bottom: 0.5rem;">' + c.subtitle + '</p>';
+  const grid = document.getElementById('servicesGrid');
+  grid.innerHTML = '';
+  c.items.forEach((s, i) => {
+    const card = document.createElement('div');
+    card.className = 'service-card reveal';
+    card.style.transitionDelay = (i * 0.1) + 's';
+    card.innerHTML = '<div class="service-number">' + s.number + '</div><h3>' + s.name + '</h3><p>' + s.description + '</p><ul class="service-features">' + s.features.map(f => '<li>' + f + '</li>').join('') + '</ul>';
+    grid.appendChild(card);
+    revealObserver.observe(card);
+  });
+  document.getElementById('servicesNote').textContent = c.note;
+}
+
+// === RENDER CONTACT ===
+function renderContact(content) {
+  const c = content.contact;
+  const labels = content.ui.contact_labels;
+  const form = content.ui.form;
+  document.getElementById('contactInfo').innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><p>' + c.description + '</p><div class="contact-detail"><div class="contact-detail-label">' + labels.email + '</div><div class="contact-detail-value"><a href="mailto:' + c.email + '">' + c.email + '</a></div></div><div class="contact-detail"><div class="contact-detail-label">' + labels.location + '</div><div class="contact-detail-value">' + c.location + '</div></div><div class="contact-social"><a href="' + c.linkedin + '" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a></div>';
+  // Contact form
+  const formEl = document.getElementById('contactForm');
+  formEl.innerHTML = '<input type="hidden" name="form-name" value="contact"><p style="display:none;"><label>' + form.honeypot_label + ' <input name="bot-field"></label></p><div class="form-row"><div class="form-field"><label for="fname">' + form.first_name + '</label><input type="text" id="fname" name="fname" required autocomplete="given-name"></div><div class="form-field"><label for="lname">' + form.last_name + '</label><input type="text" id="lname" name="lname" required autocomplete="family-name"></div></div><div class="form-field"><label for="email">' + form.email + '</label><input type="email" id="email" name="email" required autocomplete="email"></div><div class="form-field"><label for="subject">' + form.subject + '</label><input type="text" id="subject" name="subject"></div><div class="form-field"><label for="message">' + form.message + '</label><textarea id="message" name="message" rows="5" required></textarea></div><div class="form-field"><label for="referral">' + form.referral + '</label><select id="referral" name="referral"><option value="">' + form.referral_placeholder + '</option><option value="search">' + form.referral_search + '</option><option value="referral">' + form.referral_referral + '</option><option value="social">' + form.referral_social + '</option><option value="other">' + form.referral_other + '</option></select></div><div class="form-submit"><button type="submit" class="btn btn-filled">' + form.submit + '</button></div>';
+}
 
 // === MODAL ===
 const modal = document.getElementById('bookModal');
 const modalClose = document.getElementById('modalClose');
 function openBookModal(slug) {
-  const book = bookData.books[slug];
+  const book = DATA[currentLang].books.books[slug];
   if (!book) return;
   if (book.cover) {
     document.getElementById('modalCover').src = 'images/covers/' + book.cover;
+    document.getElementById('modalCover').alt = book.title;
   } else {
     document.getElementById('modalCover').src = '';
+    document.getElementById('modalCover').alt = '';
   }
   let titleHtml = book.title;
   if (book.subtitle) titleHtml += '<em>' + book.subtitle + '</em>';
@@ -568,97 +706,96 @@ modalClose.addEventListener('click', closeModal);
 modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-// === TESTIMONIALS ===
-function buildTestimonials() {
-  const track = document.getElementById('testimonialTrack');
-  const dotsContainer = document.getElementById('testimonialDots');
-  testimonialData.testimonials.forEach((t, i) => {
-    const slide = document.createElement('div');
-    slide.className = 'testimonial-slide';
-    slide.innerHTML = '<p class="testimonial-quote">' + t.quote + '</p><p class="testimonial-author">' + t.author + '</p><p class="testimonial-work">' + t.work + '</p>';
-    track.appendChild(slide);
-    const dot = document.createElement('button');
-    dot.className = 'testimonial-dot' + (i === 0 ? ' active' : '');
-    dot.setAttribute('aria-label', 'Go to testimonial ' + (i + 1));
-    dot.addEventListener('click', () => goTo(i));
-    dotsContainer.appendChild(dot);
+// === FULL RENDER ===
+function render(lang) {
+  currentLang = lang;
+  const data = DATA[lang];
+  renderMeta(data.content);
+  renderChrome(data.content);
+  renderPortfolio(data.content, data.books);
+  renderTestimonials(data.content, data.testimonials);
+  renderPhilosophy(data.content);
+  renderAbout(data.content);
+  renderSkills(data.content);
+  renderServices(data.content);
+  renderContact(data.content);
+  // Observe newly-minted reveal elements
+  observeReveals(document);
+  // Re-wire nav hamburger (rebuilt in renderChrome)
+  wireNav();
+  // Re-wire smooth scroll
+  wireSmoothScroll();
+  // Update toggle state
+  document.querySelectorAll('#langToggle button').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === lang);
+    b.setAttribute('aria-pressed', b.dataset.lang === lang);
   });
-  let current = 0;
-  let autoplay;
-  function goTo(index) {
-    current = index;
-    track.style.transform = 'translateX(-' + (current * 100) + '%)';
-    dotsContainer.querySelectorAll('.testimonial-dot').forEach((d, i) => d.classList.toggle('active', i === current));
-  }
-  const slides = track.querySelectorAll('.testimonial-slide');
-  document.getElementById('prevBtn').addEventListener('click', () => { goTo(current === 0 ? slides.length - 1 : current - 1); resetAutoplay(); });
-  document.getElementById('nextBtn').addEventListener('click', () => { goTo(current === slides.length - 1 ? 0 : current + 1); resetAutoplay(); });
-  function startAutoplay() { autoplay = setInterval(() => goTo(current === slides.length - 1 ? 0 : current + 1), 6000); }
-  function resetAutoplay() { clearInterval(autoplay); startAutoplay(); }
-  startAutoplay();
+  // Update URL without full reload (but allow bookmarking)
+  const url = new URL(window.location.href);
+  if (lang === 'es') url.searchParams.set('lang', 'es');
+  else url.searchParams.delete('lang');
+  window.history.replaceState({}, '', url);
+  // Persist
+  try { localStorage.setItem('ui_lang', lang); } catch (e) {}
 }
 
-// === PHILOSOPHY ===
-function buildPhilosophy() {
-  const c = contentData.philosophy;
-  const el = document.getElementById('philosophyContent');
-  el.innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><blockquote>\u201C' + c.quote + '\u201D</blockquote><div class="philosophy-text">' + c.paragraphs.map(p => '<p>' + p + '</p>').join('') + '</div>';
+// === NAV WIRING ===
+function wireNav() {
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  // Remove any existing handlers by cloning
+  const newToggle = toggle.cloneNode(true);
+  toggle.parentNode.replaceChild(newToggle, toggle);
+  newToggle.addEventListener('click', () => {
+    const open = !newToggle.classList.contains('open');
+    newToggle.classList.toggle('open');
+    links.classList.toggle('open');
+    newToggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    newToggle.classList.remove('open');
+    links.classList.remove('open');
+    newToggle.setAttribute('aria-expanded', 'false');
+  }));
 }
 
-// === ABOUT ===
-function buildAbout() {
-  const c = contentData.about;
-  const el = document.getElementById('aboutContent');
-  el.innerHTML = '<div class="about-photo-wrap reveal"><img src="' + c.photo + '" alt="Sulay Hernandez" class="about-photo"><p class="about-photo-credit">' + c.photo_credit + '</p></div><div class="about-text reveal" style="animation-delay: 0.15s;"><span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2>' + c.paragraphs.map(p => '<p>' + p + '</p>').join('') + '<div class="about-details"><div><div class="about-detail-label">Education</div><div class="about-detail-value">' + c.details.education + '</div></div><div><div class="about-detail-label">Languages</div><div class="about-detail-value">' + c.details.languages + '</div></div><div><div class="about-detail-label">Location</div><div class="about-detail-value">' + c.details.location + '</div></div></div></div>';
-  el.querySelectorAll('.reveal').forEach(r => observer.observe(r));
-}
-
-// === SKILLS ===
-function buildSkills() {
-  const grid = document.getElementById('skillsGrid');
-  contentData.skills.items.forEach((s, i) => {
-    const card = document.createElement('div');
-    card.className = 'skill-card reveal';
-    card.style.transitionDelay = (i * 0.1) + 's';
-    card.innerHTML = '<h3>' + s.name + '</h3><p>' + s.description + '</p>';
-    grid.appendChild(card);
-    observer.observe(card);
+// === SMOOTH SCROLL ===
+let smoothScrollWired = false;
+function wireSmoothScroll() {
+  // Use event delegation on document so we don't double-bind on re-render.
+  if (smoothScrollWired) return;
+  smoothScrollWired = true;
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (href === '#' || href.length <= 1) return;
+    const target = document.querySelector(href);
+    if (!target) return;
+    e.preventDefault();
+    const top = target.getBoundingClientRect().top + window.pageYOffset - 70;
+    window.scrollTo({ top, behavior: 'smooth' });
   });
 }
 
-// === SERVICES ===
-function buildServices() {
-  const c = contentData.services;
-  document.getElementById('servicesHeader').innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><p style="font-size: 0.88rem; color: var(--gray-mid); margin-bottom: 0.5rem;">' + c.subtitle + '</p>';
-  const grid = document.getElementById('servicesGrid');
-  c.items.forEach((s, i) => {
-    const card = document.createElement('div');
-    card.className = 'service-card reveal';
-    card.style.transitionDelay = (i * 0.1) + 's';
-    card.innerHTML = '<div class="service-number">' + s.number + '</div><h3>' + s.name + '</h3><p>' + s.description + '</p><ul class="service-features">' + s.features.map(f => '<li>' + f + '</li>').join('') + '</ul>';
-    grid.appendChild(card);
-    observer.observe(card);
-  });
-  document.getElementById('servicesNote').textContent = c.note;
-}
+// === NAV SCROLL STYLING ===
+const navEl = document.getElementById('nav');
+window.addEventListener('scroll', () => navEl.classList.toggle('scrolled', window.scrollY > 60));
 
-// === CONTACT ===
-function buildContact() {
-  const c = contentData.contact;
-  document.getElementById('contactInfo').innerHTML = '<span class="section-label">' + c.section_label + '</span><h2 class="section-title">' + c.title + '</h2><p>' + c.description + '</p><div class="contact-detail"><div class="contact-detail-label">Email</div><div class="contact-detail-value"><a href="mailto:' + c.email + '">' + c.email + '</a></div></div><div class="contact-detail"><div class="contact-detail-label">Location</div><div class="contact-detail-value">' + c.location + '</div></div><div class="contact-social"><a href="' + c.linkedin + '" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a></div>';
-}
+// === LANGUAGE TOGGLE WIRING ===
+document.getElementById('langToggle').addEventListener('click', e => {
+  const btn = e.target.closest('button[data-lang]');
+  if (!btn) return;
+  const lang = btn.dataset.lang;
+  if (lang === currentLang) return;
+  render(lang);
+});
 
-// === BUILD ALL ===
-buildPortfolio();
-buildTestimonials();
-buildPhilosophy();
-buildAbout();
-buildSkills();
-buildServices();
-buildContact();
+// === INITIAL RENDER ===
+render(currentLang);
 
-// === SCROLL-LINKED BACKGROUND ===
-if (!CSS.supports || !CSS.supports('animation-timeline', 'scroll()')) {
+// === SCROLL-LINKED BACKGROUND FALLBACK ===
+if (typeof CSS === "undefined" || !CSS.supports || !CSS.supports('animation-timeline', 'scroll()')) {
   const s = document.createElement('style');
   s.textContent = 'body::before { animation: none !important; }';
   document.head.appendChild(s);
