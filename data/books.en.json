@@ -1,0 +1,462 @@
+{
+  "priority": [
+    "the-strain-of-other-blood",
+    "the-race-to-be-myself",
+    "growing-up-urkel",
+    "lets-move-on",
+    "my-infamous-life",
+    "barack-like-me",
+    "im-still-standing",
+    "never-make-the-same-mistake-twice",
+    "final-theory",
+    "it-calls-you-back",
+    "the-devils-mambo",
+    "hold-love-strong",
+    "the-ark",
+    "the-faithful-scribe"
+  ],
+  "books": {
+    "the-strain-of-other-blood": {
+      "title": "The Strain of Other Blood",
+      "subtitle": "",
+      "author": "Patricia Allen",
+      "category": "recent nonfiction",
+      "description": "A forthcoming memoir exploring identity, heritage, and the ties that bind across generations.",
+      "cover": null,
+      "quotes": []
+    },
+    "the-race-to-be-myself": {
+      "title": "The Race to Be Myself",
+      "subtitle": "A Memoir",
+      "author": "Caster Semenya",
+      "category": "recent nonfiction",
+      "description": "World champion runner Caster Semenya offers an empowering account of her extraordinary life and career, and her trailblazing battle to compete on her own terms. A New York Times Book Review Editors' Choice.",
+      "cover": "the-race-to-be-myself.jpg",
+      "quotes": [
+        {
+          "text": "Caster's story isn't just a tale of perseverance and poise, it's a story that makes us all interrogate our humanity and the world we build with our actions every day. An essential read.",
+          "source": "Trevor Noah"
+        },
+        {
+          "text": "An extraordinary and important book, unputdownable from start to finish.",
+          "source": "John Carlin, author of Playing the Enemy: Nelson Mandela and the Game That Made a Nation"
+        }
+      ]
+    },
+    "growing-up-urkel": {
+      "title": "Growing Up Urkel",
+      "subtitle": "A Memoir",
+      "author": "Jaleel White",
+      "category": "recent nonfiction",
+      "description": "The beloved actor behind Steve Urkel shares the untold story of growing up in the spotlight, navigating fame, family, and identity.",
+      "cover": "growing-up-urkel.jpg",
+      "quotes": []
+    },
+    "lets-move-on": {
+      "title": "Let's Move On",
+      "subtitle": "",
+      "author": "Vicente Fox",
+      "category": "recent nonfiction",
+      "description": "Former Mexican President Vicente Fox offers a bold vision for the future of US-Mexico relations and the power of diplomacy over division.",
+      "cover": "lets-move-on.jpg",
+      "quotes": []
+    },
+    "its-not-okay": {
+      "title": "It's Not Okay",
+      "subtitle": "",
+      "author": "Andi Dorfman",
+      "category": "recent nonfiction",
+      "description": "Former Bachelorette Andi Dorfman shares her unfiltered account of heartbreak, resilience, and finding herself after the cameras stopped rolling.",
+      "cover": "its-not-okay.jpg",
+      "quotes": []
+    },
+    "a-well-tempered-heart": {
+      "title": "A Well-Tempered Heart",
+      "subtitle": "A Novel",
+      "author": "Jan-Philipp Sendker",
+      "category": "literary",
+      "description": "The sequel to the international best-selling novel The Art of Hearing Heartbeats. A mesmerizing story of love, loss, and the power of the human heart set in Burma.",
+      "cover": "a-well-tempered-heart.jpg",
+      "quotes": []
+    },
+    "cleaning-nabokovs-house": {
+      "title": "Cleaning Nabokov's House",
+      "subtitle": "A Novel",
+      "author": "Leslie Daniels",
+      "category": "literary",
+      "description": "A funny and moving novel about a woman's desperate attempt to rebuild her life after divorce, set in a house once occupied by Vladimir Nabokov.",
+      "cover": "cleaning-nabokovs-house.jpg",
+      "quotes": []
+    },
+    "come-with-me": {
+      "title": "Come With Me",
+      "subtitle": "A Novel",
+      "author": "J.S. Hawley",
+      "category": "literary",
+      "description": "A passionate and evocative novel of desire and connection.",
+      "cover": "come-with-me.jpg",
+      "quotes": []
+    },
+    "days-in-the-history-of-silence": {
+      "title": "Days in the History of Silence",
+      "subtitle": "A Novel",
+      "author": "Merethe Lindstrøm",
+      "category": "literary",
+      "description": "Winner of the Nordic Council Literature Prize. A quiet, unnerving masterpiece about memory, aging, and the silences that accumulate in a long marriage.",
+      "cover": "days-in-the-history-of-silence.jpg",
+      "quotes": []
+    },
+    "electrico-w": {
+      "title": "Eléctrico W",
+      "subtitle": "A Novel",
+      "author": "Hervé Le Tellier",
+      "category": "literary",
+      "description": "A wildly inventive novel from the author of The Anomaly, weaving through Lisbon's streets and history.",
+      "cover": "electrico-w.jpg",
+      "quotes": []
+    },
+    "hold-love-strong": {
+      "title": "Hold Love Strong",
+      "subtitle": "A Novel",
+      "author": "Matthew Aaron Goodman",
+      "category": "literary",
+      "description": "A sweeping novel about a young man coming of age in a New York City housing project, discovering the transformative power of love and education.",
+      "cover": "hold-love-strong.jpg",
+      "quotes": []
+    },
+    "it-calls-you-back": {
+      "title": "It Calls You Back",
+      "subtitle": "An Odyssey Through Love, Addiction, Revolutions, and Healing",
+      "author": "Luis J. Rodriguez",
+      "category": "literary",
+      "description": "The acclaimed sequel to Always Running. A raw, powerful memoir of addiction, revolution, and redemption from one of America's most important writers.",
+      "cover": "it-calls-you-back.jpg",
+      "quotes": []
+    },
+    "lillian-and-dash": {
+      "title": "Lillian and Dash",
+      "subtitle": "A Novel",
+      "author": "Sam Toperoff",
+      "category": "literary",
+      "description": "A novel imagining the tumultuous love story between literary legends Lillian Hellman and Dashiell Hammett.",
+      "cover": "lillian-and-dash.jpg",
+      "quotes": []
+    },
+    "love-and-lament": {
+      "title": "Love and Lament",
+      "subtitle": "A Novel",
+      "author": "John Milliken Thompson",
+      "category": "literary",
+      "description": "A sweeping family saga set in the early twentieth-century American South, exploring love, loss, and the bonds that hold families together.",
+      "cover": "love-and-lament.jpg",
+      "quotes": []
+    },
+    "more-than-this": {
+      "title": "More Than This",
+      "subtitle": "A Novel",
+      "author": "Margo Candela",
+      "category": "literary",
+      "description": "A compelling novel of love, ambition, and the search for meaning beyond surface appearances.",
+      "cover": "more-than-this.jpg",
+      "quotes": []
+    },
+    "the-barcelona-brothers": {
+      "title": "The Barcelona Brothers",
+      "subtitle": "A Novel",
+      "author": "Carlos Zanón",
+      "category": "literary",
+      "description": "A gritty, noir-inflected novel set in Barcelona's underworld, exploring brotherhood, loyalty, and betrayal.",
+      "cover": "the-barcelona-brothers.jpg",
+      "quotes": []
+    },
+    "the-blue-orchard": {
+      "title": "The Blue Orchard",
+      "subtitle": "A Novel",
+      "author": "Jackson Taylor",
+      "category": "literary",
+      "description": "Based on true events, a powerful novel about a nurse and a black doctor who secretly perform abortions in 1940s Pennsylvania, risking everything for their patients.",
+      "cover": "the-blue-orchard.jpg",
+      "quotes": []
+    },
+    "the-days-of-the-rainbow": {
+      "title": "The Days of the Rainbow",
+      "subtitle": "A Novel",
+      "author": "Antonio Skármeta",
+      "category": "literary",
+      "description": "From the author of The Postman, a novel about the creative campaign that helped topple Pinochet's dictatorship in Chile.",
+      "cover": "the-days-of-the-rainbow.jpg",
+      "quotes": []
+    },
+    "the-deep-whatsis": {
+      "title": "The Deep Whatsis",
+      "subtitle": "A Novel",
+      "author": "Peter Mattei",
+      "category": "literary",
+      "description": "A darkly comic novel about a powerful New York advertising executive whose life spirals out of control.",
+      "cover": "the-deep-whatsis.jpg",
+      "quotes": []
+    },
+    "the-devils-mambo": {
+      "title": "The Devil's Mambo",
+      "subtitle": "A Novel",
+      "author": "Jerry Rodriguez",
+      "category": "literary",
+      "description": "A gritty, vibrant novel set in the streets of New York, blending crime, culture, and the rhythm of urban life.",
+      "cover": "the-devils-mambo.jpg",
+      "quotes": []
+    },
+    "the-elixir-of-immortality": {
+      "title": "The Elixir of Immortality",
+      "subtitle": "A Novel",
+      "author": "Gabi Gleichmann",
+      "category": "literary",
+      "description": "A sweeping saga spanning centuries, following a Jewish family's quest for the secret of eternal life through the tumults of European history.",
+      "cover": "the-elixir-of-immortality.jpg",
+      "quotes": []
+    },
+    "the-silence-and-the-roar": {
+      "title": "The Silence and the Roar",
+      "subtitle": "A Novel",
+      "author": "Nihad Sirees",
+      "category": "literary",
+      "description": "A daring novel about a writer who refuses to join the propaganda machine in a Middle Eastern dictatorship, navigating a single day of absurdity and danger.",
+      "cover": "the-silence-and-the-roar.jpg",
+      "quotes": []
+    },
+    "the-hypothetical-girl": {
+      "title": "The Hypothetical Girl",
+      "subtitle": "Stories",
+      "author": "Elizabeth Cohen",
+      "category": "literary",
+      "description": "A witty, poignant collection of stories exploring modern love in the age of online dating.",
+      "cover": "the-hypothetical-girl.jpg",
+      "quotes": []
+    },
+    "a-bad-days-work": {
+      "title": "A Bad Day's Work",
+      "subtitle": "A Lilly Hawkins Mystery",
+      "author": "Nora McFarland",
+      "category": "popular",
+      "description": "A fast-paced mystery featuring a feisty TV news photographer who stumbles onto a murder investigation in California's Central Valley.",
+      "cover": "a-bad-days-work.jpg",
+      "quotes": []
+    },
+    "beyond-heaving-bosoms": {
+      "title": "Beyond Heaving Bosoms",
+      "subtitle": "The Smart Bitches' Guide to Romance Novels",
+      "author": "Sarah Wendell & Candy Tan",
+      "category": "popular",
+      "description": "A hilarious, insightful exploration of the romance novel genre — its history, its readers, and why it matters.",
+      "cover": "beyond-heaving-bosoms.jpg",
+      "quotes": []
+    },
+    "dreadful": {
+      "title": "Dreadful",
+      "subtitle": "The Short Life and Gay Times of John Horne Burns",
+      "author": "David Margolick",
+      "category": "popular",
+      "description": "The fascinating biography of a brilliant, self-destructive writer whose WWII novel The Gallery was hailed as a masterpiece.",
+      "cover": "dreadful.jpg",
+      "quotes": []
+    },
+    "final-theory": {
+      "title": "Final Theory",
+      "subtitle": "A Thriller",
+      "author": "Mark Alpert",
+      "category": "popular",
+      "description": "A heart-pounding thriller about a Columbia professor drawn into a deadly conspiracy surrounding Einstein's last secret — the unified field theory.",
+      "cover": "final-theory.jpg",
+      "quotes": []
+    },
+    "his-captive": {
+      "title": "His Captive",
+      "subtitle": "A Novel",
+      "author": "Diana Cosby",
+      "category": "popular",
+      "description": "A captivating novel of suspense and romance set in medieval Scotland.",
+      "cover": "his-captive.jpg",
+      "quotes": []
+    },
+    "never-wave-goodbye": {
+      "title": "Never Wave Goodbye",
+      "subtitle": "A Novel of Suspense",
+      "author": "Doug Magee",
+      "category": "popular",
+      "description": "A riveting thriller about four families whose children are kidnapped during a summer camp drop-off, exploring every parent's worst nightmare.",
+      "cover": "never-wave-goodbye.jpg",
+      "quotes": []
+    },
+    "next-stop": {
+      "title": "Next Stop",
+      "subtitle": "Growing Up Wild-Style in the Bronx",
+      "author": "Ivan Sanchez",
+      "category": "popular",
+      "description": "A raw, unforgettable memoir of growing up in the Bronx amid poverty, violence, and the birth of hip-hop culture.",
+      "cover": "next-stop.jpg",
+      "quotes": []
+    },
+    "omega-theory": {
+      "title": "Omega Theory",
+      "subtitle": "A Thriller",
+      "author": "Mark Alpert",
+      "category": "popular",
+      "description": "The sequel to Final Theory. A heart-pounding thriller that takes readers from the deserts of the Middle East to the frontiers of quantum physics.",
+      "cover": "omega-theory.jpg",
+      "quotes": []
+    },
+    "platinum": {
+      "title": "Platinum",
+      "subtitle": "A Novel",
+      "author": "Aliya S. King",
+      "category": "popular",
+      "description": "In the tradition of roman-à-clef novels, a debut that goes behind the fairy-tale of celebrity relationships to uncover the truth about love and fame in the hip-hop world.",
+      "cover": "platinum.jpg",
+      "quotes": [
+        {
+          "text": "A juicy ride through love in the hip-hop fast lane. The plot twists will make you wince and squirm!",
+          "source": "Erica Kennedy, New York Times bestselling author, Bling"
+        }
+      ]
+    },
+    "solo-pass": {
+      "title": "Solo Pass",
+      "subtitle": "A Novel",
+      "author": "Ronald De Feo",
+      "category": "popular",
+      "description": "A compelling work of literary suspense set against the backdrop of New York City.",
+      "cover": "solo-pass.jpg",
+      "quotes": []
+    },
+    "what-doesnt-kill-you": {
+      "title": "What Doesn't Kill You",
+      "subtitle": "A Novel",
+      "author": "Virginia DeBerry & Donna Grant",
+      "category": "popular",
+      "description": "A powerful novel about resilience, survival, and the strength of the human spirit from bestselling authors.",
+      "cover": "what-doesnt-kill-you.jpg",
+      "quotes": []
+    },
+    "barack-like-me": {
+      "title": "Barack Like Me",
+      "subtitle": "The Chocolate-Covered Truth",
+      "author": "David Alan Grier",
+      "category": "nonfiction",
+      "description": "Acclaimed comedian and award-winning actor expounds on politics, culture, and race while recounting his life story in this biting look at America, B.B. and A.B. (Before Barack and After Barack).",
+      "cover": "barack-like-me.jpg",
+      "quotes": [
+        {
+          "text": "A comic of undeniable charm and supple skills.",
+          "source": "The Washington Post"
+        },
+        {
+          "text": "The definitive guide to American blackness. A masterwork. Grier triumphs again.",
+          "source": "Jimmy Kimmel"
+        }
+      ]
+    },
+    "finding-marthas-place": {
+      "title": "Finding Martha's Place",
+      "subtitle": "My Journey Through Sin, Salvation, and Lots of Soul Food",
+      "author": "Martha Hawkins",
+      "category": "nonfiction",
+      "description": "The inspiring memoir of a woman who overcame homelessness and hardship to build a beloved soul food restaurant in Montgomery, Alabama.",
+      "cover": "finding-marthas-place.jpg",
+      "quotes": []
+    },
+    "im-still-standing": {
+      "title": "I'm Still Standing",
+      "subtitle": "From Captive U.S. Soldier to Free Citizen — My Journey Home",
+      "author": "Shoshana Johnson",
+      "category": "nonfiction",
+      "description": "The first female POW of Operation Iraqi Freedom and the first black female POW in U.S. history shares the story of her capture in Iraq and her eventual release. National bestseller.",
+      "cover": "im-still-standing.jpg",
+      "quotes": [
+        {
+          "text": "Johnson endured her captivity with courage and emerged with honor. She vividly, simply, and unpretentiously tells her tale.",
+          "source": "Publisher's Weekly"
+        }
+      ]
+    },
+    "my-infamous-life": {
+      "title": "My Infamous Life",
+      "subtitle": "The Autobiography of Mobb Deep's Prodigy",
+      "author": "Albert 'Prodigy' Johnson with Laura Checkoway",
+      "category": "nonfiction",
+      "description": "Part ode to the concrete jungles of NYC and part shocking confessional on the burdens of fame during Hip Hop's Golden Era.",
+      "cover": "my-infamous-life.jpg",
+      "quotes": [
+        {
+          "text": "The legendary rapper unsentimentally details a life of beefs, brawls and murders during the heyday of East Coast hip-hop.",
+          "source": "The Washington Post"
+        },
+        {
+          "text": "A surprising triumph, both as an archive of 1990s New York hip-hop folk tales and for its stirring sketches.",
+          "source": "Slate.com"
+        }
+      ]
+    },
+    "never-make-the-same-mistake-twice": {
+      "title": "Never Make the Same Mistake Twice",
+      "subtitle": "Lessons on Love and Life Learned the Hard Way",
+      "author": "Nene Leakes",
+      "category": "nonfiction",
+      "description": "Real Housewives of Atlanta star Nene Leakes shares lessons learned from life's challenges, offering wisdom on how to grow through adversity.",
+      "cover": "never-make-the-same-mistake-twice.jpg",
+      "quotes": []
+    },
+    "the-ark": {
+      "title": "The Ark",
+      "subtitle": "A Novel",
+      "author": "Boyd Morrison",
+      "category": "nonfiction",
+      "description": "The self-published Amazon Kindle bestselling techno-thriller that re-envisioned the biblical story of Noah's Ark through modern day science. National and international bestseller, translated into eighteen languages.",
+      "cover": "the-ark.jpg",
+      "quotes": [
+        {
+          "text": "Boyd Morrison skillfully entwines Biblical history, archaeology and religious fanaticism with high technology to create a riveting adventure.",
+          "source": "Douglas Preston, New York Times Bestselling Author"
+        },
+        {
+          "text": "This is a solid, well-written thriller, full of action, villainy, and close calls.",
+          "source": "Booklist"
+        }
+      ]
+    },
+    "the-elephant-keepers-children": {
+      "title": "The Elephant Keepers' Children",
+      "subtitle": "A Novel",
+      "author": "Peter Høeg",
+      "category": "nonfiction",
+      "description": "From the author of Smilla's Sense of Snow, a wildly inventive novel about three children who must save their parents and their island community.",
+      "cover": "the-elephant-keepers-children.jpg",
+      "quotes": []
+    },
+    "the-serial-killer-whisperer": {
+      "title": "The Serial Killer Whisperer",
+      "subtitle": "",
+      "author": "Pete Earley",
+      "category": "nonfiction",
+      "description": "The true story of a teenager who suffered a traumatic brain injury and discovered an uncanny ability to connect with imprisoned serial killers.",
+      "cover": "the-serial-killer-whisperer.jpg",
+      "quotes": []
+    },
+    "the-faithful-scribe": {
+      "title": "The Faithful Scribe",
+      "subtitle": "",
+      "author": "Shahan Mufti",
+      "category": "nonfiction",
+      "description": "A sweeping narrative that traces the intertwined histories of Pakistan and the United States through one family's story.",
+      "cover": "the-faithful-scribe.jpg",
+      "quotes": []
+    },
+    "the-gettem-guide": {
+      "title": "The Get 'Em Girls' Guide to the Power of Cuisine",
+      "subtitle": "Perfect Recipes for Spicing Up Your Love Life",
+      "author": "Shakara Bridgers, Jeniece Isley, and Joan A. Davis",
+      "category": "nonfiction",
+      "description": "A sassy cookbook blending delicious recipes with relationship advice and entertaining tips.",
+      "cover": "the-gettem-guide.jpg",
+      "quotes": []
+    }
+  }
+}

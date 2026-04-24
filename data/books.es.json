@@ -1,0 +1,462 @@
+{
+  "priority": [
+    "the-strain-of-other-blood",
+    "the-race-to-be-myself",
+    "growing-up-urkel",
+    "lets-move-on",
+    "my-infamous-life",
+    "barack-like-me",
+    "im-still-standing",
+    "never-make-the-same-mistake-twice",
+    "final-theory",
+    "it-calls-you-back",
+    "the-devils-mambo",
+    "hold-love-strong",
+    "the-ark",
+    "the-faithful-scribe"
+  ],
+  "books": {
+    "the-strain-of-other-blood": {
+      "title": "The Strain of Other Blood",
+      "subtitle": "",
+      "author": "Patricia Allen",
+      "category": "recent nonfiction",
+      "description": "Unas memorias de próxima aparición que exploran identidad, herencia y los lazos que unen a través de las generaciones.",
+      "cover": null,
+      "quotes": []
+    },
+    "the-race-to-be-myself": {
+      "title": "The Race to Be Myself",
+      "subtitle": "Unas memorias",
+      "author": "Caster Semenya",
+      "category": "recent nonfiction",
+      "description": "La corredora y campeona mundial Caster Semenya ofrece un relato poderoso de su extraordinaria vida y carrera, y de su batalla pionera por competir en sus propios términos. Editors' Choice del New York Times Book Review.",
+      "cover": "the-race-to-be-myself.jpg",
+      "quotes": [
+        {
+          "text": "La historia de Caster no es solo un relato de perseverancia y entereza; es una historia que nos obliga a todos a cuestionar nuestra humanidad y el mundo que construimos cada día con nuestros actos. Una lectura esencial.",
+          "source": "Trevor Noah"
+        },
+        {
+          "text": "Un libro extraordinario e importante, imposible de dejar de leer de principio a fin.",
+          "source": "John Carlin, autor de Playing the Enemy: Nelson Mandela and the Game That Made a Nation"
+        }
+      ]
+    },
+    "growing-up-urkel": {
+      "title": "Growing Up Urkel",
+      "subtitle": "Unas memorias",
+      "author": "Jaleel White",
+      "category": "recent nonfiction",
+      "description": "El querido actor detrás de Steve Urkel cuenta la historia nunca antes contada de crecer bajo los reflectores, lidiando con la fama, la familia y la identidad.",
+      "cover": "growing-up-urkel.jpg",
+      "quotes": []
+    },
+    "lets-move-on": {
+      "title": "Let's Move On",
+      "subtitle": "",
+      "author": "Vicente Fox",
+      "category": "recent nonfiction",
+      "description": "El expresidente mexicano Vicente Fox ofrece una visión audaz sobre el futuro de las relaciones entre Estados Unidos y México, y sobre el poder de la diplomacia frente a la división.",
+      "cover": "lets-move-on.jpg",
+      "quotes": []
+    },
+    "its-not-okay": {
+      "title": "It's Not Okay",
+      "subtitle": "",
+      "author": "Andi Dorfman",
+      "category": "recent nonfiction",
+      "description": "La exprotagonista de The Bachelorette, Andi Dorfman, comparte su relato sin filtros sobre el desamor, la resiliencia y el reencuentro con una misma después de que las cámaras se apagaron.",
+      "cover": "its-not-okay.jpg",
+      "quotes": []
+    },
+    "a-well-tempered-heart": {
+      "title": "A Well-Tempered Heart",
+      "subtitle": "Una novela",
+      "author": "Jan-Philipp Sendker",
+      "category": "literary",
+      "description": "La secuela de la exitosa novela internacional The Art of Hearing Heartbeats. Una historia hipnótica de amor, pérdida y del poder del corazón humano, ambientada en Birmania.",
+      "cover": "a-well-tempered-heart.jpg",
+      "quotes": []
+    },
+    "cleaning-nabokovs-house": {
+      "title": "Cleaning Nabokov's House",
+      "subtitle": "Una novela",
+      "author": "Leslie Daniels",
+      "category": "literary",
+      "description": "Una novela divertida y conmovedora sobre el intento desesperado de una mujer por reconstruir su vida tras el divorcio, ambientada en una casa que alguna vez habitó Vladimir Nabokov.",
+      "cover": "cleaning-nabokovs-house.jpg",
+      "quotes": []
+    },
+    "come-with-me": {
+      "title": "Come With Me",
+      "subtitle": "Una novela",
+      "author": "J.S. Hawley",
+      "category": "literary",
+      "description": "Una novela apasionada y evocadora sobre el deseo y la conexión.",
+      "cover": "come-with-me.jpg",
+      "quotes": []
+    },
+    "days-in-the-history-of-silence": {
+      "title": "Days in the History of Silence",
+      "subtitle": "Una novela",
+      "author": "Merethe Lindstrøm",
+      "category": "literary",
+      "description": "Ganadora del Premio de Literatura del Consejo Nórdico. Una obra maestra silenciosa e inquietante sobre la memoria, el envejecimiento y los silencios que se acumulan en un matrimonio de largos años.",
+      "cover": "days-in-the-history-of-silence.jpg",
+      "quotes": []
+    },
+    "electrico-w": {
+      "title": "Eléctrico W",
+      "subtitle": "Una novela",
+      "author": "Hervé Le Tellier",
+      "category": "literary",
+      "description": "Una novela desbordantemente inventiva del autor de The Anomaly, que serpentea por las calles y la historia de Lisboa.",
+      "cover": "electrico-w.jpg",
+      "quotes": []
+    },
+    "hold-love-strong": {
+      "title": "Hold Love Strong",
+      "subtitle": "Una novela",
+      "author": "Matthew Aaron Goodman",
+      "category": "literary",
+      "description": "Una novela de gran alcance sobre un joven que llega a la adultez en un complejo de viviendas sociales de la ciudad de Nueva York, y que descubre el poder transformador del amor y la educación.",
+      "cover": "hold-love-strong.jpg",
+      "quotes": []
+    },
+    "it-calls-you-back": {
+      "title": "It Calls You Back",
+      "subtitle": "Una odisea a través del amor, la adicción, las revoluciones y la sanación",
+      "author": "Luis J. Rodriguez",
+      "category": "literary",
+      "description": "La aclamada secuela de Always Running. Unas memorias crudas y poderosas sobre adicción, revolución y redención, escritas por uno de los autores más importantes de Estados Unidos.",
+      "cover": "it-calls-you-back.jpg",
+      "quotes": []
+    },
+    "lillian-and-dash": {
+      "title": "Lillian and Dash",
+      "subtitle": "Una novela",
+      "author": "Sam Toperoff",
+      "category": "literary",
+      "description": "Una novela que imagina la tumultuosa historia de amor entre las leyendas literarias Lillian Hellman y Dashiell Hammett.",
+      "cover": "lillian-and-dash.jpg",
+      "quotes": []
+    },
+    "love-and-lament": {
+      "title": "Love and Lament",
+      "subtitle": "Una novela",
+      "author": "John Milliken Thompson",
+      "category": "literary",
+      "description": "Una saga familiar de gran alcance ambientada en el sur de Estados Unidos a principios del siglo XX, que explora el amor, la pérdida y los vínculos que mantienen unidas a las familias.",
+      "cover": "love-and-lament.jpg",
+      "quotes": []
+    },
+    "more-than-this": {
+      "title": "More Than This",
+      "subtitle": "Una novela",
+      "author": "Margo Candela",
+      "category": "literary",
+      "description": "Una novela cautivadora sobre el amor, la ambición y la búsqueda de sentido más allá de las apariencias.",
+      "cover": "more-than-this.jpg",
+      "quotes": []
+    },
+    "the-barcelona-brothers": {
+      "title": "The Barcelona Brothers",
+      "subtitle": "Una novela",
+      "author": "Carlos Zanón",
+      "category": "literary",
+      "description": "Una novela áspera y con aires de novela negra ambientada en los bajos fondos de Barcelona, que explora la fraternidad, la lealtad y la traición.",
+      "cover": "the-barcelona-brothers.jpg",
+      "quotes": []
+    },
+    "the-blue-orchard": {
+      "title": "The Blue Orchard",
+      "subtitle": "Una novela",
+      "author": "Jackson Taylor",
+      "category": "literary",
+      "description": "Basada en hechos reales, una novela poderosa sobre una enfermera y un médico negro que practican abortos en secreto en la Pensilvania de los años cuarenta, arriesgándolo todo por sus pacientes.",
+      "cover": "the-blue-orchard.jpg",
+      "quotes": []
+    },
+    "the-days-of-the-rainbow": {
+      "title": "The Days of the Rainbow",
+      "subtitle": "Una novela",
+      "author": "Antonio Skármeta",
+      "category": "literary",
+      "description": "Del autor de The Postman, una novela sobre la campaña creativa que ayudó a derrocar la dictadura de Pinochet en Chile.",
+      "cover": "the-days-of-the-rainbow.jpg",
+      "quotes": []
+    },
+    "the-deep-whatsis": {
+      "title": "The Deep Whatsis",
+      "subtitle": "Una novela",
+      "author": "Peter Mattei",
+      "category": "literary",
+      "description": "Una novela de humor oscuro sobre un poderoso ejecutivo publicitario de Nueva York cuya vida se sale de control.",
+      "cover": "the-deep-whatsis.jpg",
+      "quotes": []
+    },
+    "the-devils-mambo": {
+      "title": "The Devil's Mambo",
+      "subtitle": "Una novela",
+      "author": "Jerry Rodriguez",
+      "category": "literary",
+      "description": "Una novela áspera y vibrante ambientada en las calles de Nueva York, que mezcla crimen, cultura y el pulso de la vida urbana.",
+      "cover": "the-devils-mambo.jpg",
+      "quotes": []
+    },
+    "the-elixir-of-immortality": {
+      "title": "The Elixir of Immortality",
+      "subtitle": "Una novela",
+      "author": "Gabi Gleichmann",
+      "category": "literary",
+      "description": "Una saga de gran alcance que abarca siglos, siguiendo la búsqueda del secreto de la vida eterna por parte de una familia judía a través de las convulsiones de la historia europea.",
+      "cover": "the-elixir-of-immortality.jpg",
+      "quotes": []
+    },
+    "the-silence-and-the-roar": {
+      "title": "The Silence and the Roar",
+      "subtitle": "Una novela",
+      "author": "Nihad Sirees",
+      "category": "literary",
+      "description": "Una novela audaz sobre un escritor que se niega a unirse a la maquinaria propagandística de una dictadura en Oriente Medio, y que atraviesa un solo día de absurdo y peligro.",
+      "cover": "the-silence-and-the-roar.jpg",
+      "quotes": []
+    },
+    "the-hypothetical-girl": {
+      "title": "The Hypothetical Girl",
+      "subtitle": "Cuentos",
+      "author": "Elizabeth Cohen",
+      "category": "literary",
+      "description": "Una colección de cuentos ingeniosa y conmovedora que explora el amor moderno en la era de las citas por internet.",
+      "cover": "the-hypothetical-girl.jpg",
+      "quotes": []
+    },
+    "a-bad-days-work": {
+      "title": "A Bad Day's Work",
+      "subtitle": "Un misterio de Lilly Hawkins",
+      "author": "Nora McFarland",
+      "category": "popular",
+      "description": "Un misterio trepidante protagonizado por una aguerrida camarógrafa de noticias de televisión que tropieza con una investigación de homicidio en el Valle Central de California.",
+      "cover": "a-bad-days-work.jpg",
+      "quotes": []
+    },
+    "beyond-heaving-bosoms": {
+      "title": "Beyond Heaving Bosoms",
+      "subtitle": "La guía sin pelos en la lengua sobre la novela romántica",
+      "author": "Sarah Wendell & Candy Tan",
+      "category": "popular",
+      "description": "Una exploración divertidísima y perspicaz del género de la novela romántica — su historia, sus lectoras y por qué importa.",
+      "cover": "beyond-heaving-bosoms.jpg",
+      "quotes": []
+    },
+    "dreadful": {
+      "title": "Dreadful",
+      "subtitle": "La breve vida y los tiempos alegres de John Horne Burns",
+      "author": "David Margolick",
+      "category": "popular",
+      "description": "La fascinante biografía de un escritor brillante y autodestructivo cuya novela sobre la Segunda Guerra Mundial, The Gallery, fue aclamada como una obra maestra.",
+      "cover": "dreadful.jpg",
+      "quotes": []
+    },
+    "final-theory": {
+      "title": "Final Theory",
+      "subtitle": "Un thriller",
+      "author": "Mark Alpert",
+      "category": "popular",
+      "description": "Un thriller vertiginoso sobre un profesor de Columbia que se ve arrastrado a una conspiración mortal en torno al último secreto de Einstein: la teoría del campo unificado.",
+      "cover": "final-theory.jpg",
+      "quotes": []
+    },
+    "his-captive": {
+      "title": "His Captive",
+      "subtitle": "Una novela",
+      "author": "Diana Cosby",
+      "category": "popular",
+      "description": "Una cautivadora novela de suspenso y romance ambientada en la Escocia medieval.",
+      "cover": "his-captive.jpg",
+      "quotes": []
+    },
+    "never-wave-goodbye": {
+      "title": "Never Wave Goodbye",
+      "subtitle": "Una novela de suspenso",
+      "author": "Doug Magee",
+      "category": "popular",
+      "description": "Un thriller electrizante sobre cuatro familias cuyos hijos son secuestrados durante la llegada a un campamento de verano, explorando la peor pesadilla de todo padre y madre.",
+      "cover": "never-wave-goodbye.jpg",
+      "quotes": []
+    },
+    "next-stop": {
+      "title": "Next Stop",
+      "subtitle": "Crecer al estilo salvaje en el Bronx",
+      "author": "Ivan Sanchez",
+      "category": "popular",
+      "description": "Unas memorias crudas e inolvidables sobre crecer en el Bronx en medio de la pobreza, la violencia y el nacimiento de la cultura hip-hop.",
+      "cover": "next-stop.jpg",
+      "quotes": []
+    },
+    "omega-theory": {
+      "title": "Omega Theory",
+      "subtitle": "Un thriller",
+      "author": "Mark Alpert",
+      "category": "popular",
+      "description": "La secuela de Final Theory. Un thriller vertiginoso que lleva al lector desde los desiertos de Oriente Medio hasta las fronteras de la física cuántica.",
+      "cover": "omega-theory.jpg",
+      "quotes": []
+    },
+    "platinum": {
+      "title": "Platinum",
+      "subtitle": "Una novela",
+      "author": "Aliya S. King",
+      "category": "popular",
+      "description": "En la tradición de las novelas roman-à-clef, un debut que va más allá del cuento de hadas de las relaciones entre celebridades para descubrir la verdad sobre el amor y la fama en el mundo del hip-hop.",
+      "cover": "platinum.jpg",
+      "quotes": [
+        {
+          "text": "Un viaje jugoso por el amor en el carril rápido del hip-hop. ¡Los giros de la trama te harán retorcerte y estremecerte!",
+          "source": "Erica Kennedy, autora bestseller del New York Times, Bling"
+        }
+      ]
+    },
+    "solo-pass": {
+      "title": "Solo Pass",
+      "subtitle": "Una novela",
+      "author": "Ronald De Feo",
+      "category": "popular",
+      "description": "Una cautivadora obra de suspenso literario ambientada en la ciudad de Nueva York.",
+      "cover": "solo-pass.jpg",
+      "quotes": []
+    },
+    "what-doesnt-kill-you": {
+      "title": "What Doesn't Kill You",
+      "subtitle": "Una novela",
+      "author": "Virginia DeBerry & Donna Grant",
+      "category": "popular",
+      "description": "Una novela poderosa sobre la resiliencia, la supervivencia y la fuerza del espíritu humano, escrita por autores bestseller.",
+      "cover": "what-doesnt-kill-you.jpg",
+      "quotes": []
+    },
+    "barack-like-me": {
+      "title": "Barack Like Me",
+      "subtitle": "La verdad cubierta de chocolate",
+      "author": "David Alan Grier",
+      "category": "nonfiction",
+      "description": "Un comediante aclamado y actor galardonado reflexiona sobre política, cultura y raza mientras relata su vida en esta mirada mordaz a Estados Unidos en dos tiempos: A.B. y D.B. (Antes de Barack y Después de Barack).",
+      "cover": "barack-like-me.jpg",
+      "quotes": [
+        {
+          "text": "Un cómico de encanto innegable y habilidades ágiles.",
+          "source": "The Washington Post"
+        },
+        {
+          "text": "La guía definitiva sobre la negritud estadounidense. Una obra maestra. Grier triunfa de nuevo.",
+          "source": "Jimmy Kimmel"
+        }
+      ]
+    },
+    "finding-marthas-place": {
+      "title": "Finding Martha's Place",
+      "subtitle": "Mi recorrido por el pecado, la salvación y mucha comida del alma",
+      "author": "Martha Hawkins",
+      "category": "nonfiction",
+      "description": "Las memorias inspiradoras de una mujer que superó la falta de vivienda y la adversidad para construir un querido restaurante de soul food en Montgomery, Alabama.",
+      "cover": "finding-marthas-place.jpg",
+      "quotes": []
+    },
+    "im-still-standing": {
+      "title": "I'm Still Standing",
+      "subtitle": "De soldada estadounidense prisionera a ciudadana libre — Mi camino de regreso a casa",
+      "author": "Shoshana Johnson",
+      "category": "nonfiction",
+      "description": "La primera mujer prisionera de guerra de la Operación Libertad Iraquí y la primera mujer negra prisionera de guerra en la historia de Estados Unidos cuenta la historia de su captura en Irak y su eventual liberación. Bestseller nacional.",
+      "cover": "im-still-standing.jpg",
+      "quotes": [
+        {
+          "text": "Johnson soportó su cautiverio con coraje y salió de él con honor. Cuenta su historia de manera vívida, sencilla y sin pretensiones.",
+          "source": "Publisher's Weekly"
+        }
+      ]
+    },
+    "my-infamous-life": {
+      "title": "My Infamous Life",
+      "subtitle": "La autobiografía de Prodigy de Mobb Deep",
+      "author": "Albert 'Prodigy' Johnson with Laura Checkoway",
+      "category": "nonfiction",
+      "description": "En parte una oda a las junglas de concreto de Nueva York y en parte una confesión impactante sobre el peso de la fama durante la era dorada del hip-hop.",
+      "cover": "my-infamous-life.jpg",
+      "quotes": [
+        {
+          "text": "El legendario rapero detalla sin sentimentalismos una vida de pleitos, peleas y asesinatos durante el apogeo del hip-hop de la Costa Este.",
+          "source": "The Washington Post"
+        },
+        {
+          "text": "Un triunfo sorprendente, tanto como archivo del folclore del hip-hop neoyorquino de los años noventa como por sus retratos conmovedores.",
+          "source": "Slate.com"
+        }
+      ]
+    },
+    "never-make-the-same-mistake-twice": {
+      "title": "Never Make the Same Mistake Twice",
+      "subtitle": "Lecciones sobre el amor y la vida aprendidas a las malas",
+      "author": "Nene Leakes",
+      "category": "nonfiction",
+      "description": "La estrella de Real Housewives of Atlanta, Nene Leakes, comparte las lecciones aprendidas de los desafíos de la vida, ofreciendo sabiduría sobre cómo crecer a través de la adversidad.",
+      "cover": "never-make-the-same-mistake-twice.jpg",
+      "quotes": []
+    },
+    "the-ark": {
+      "title": "The Ark",
+      "subtitle": "Una novela",
+      "author": "Boyd Morrison",
+      "category": "nonfiction",
+      "description": "El tecno-thriller autopublicado y bestseller en Amazon Kindle que reinventó la historia bíblica del Arca de Noé a través de la ciencia moderna. Bestseller nacional e internacional, traducido a dieciocho idiomas.",
+      "cover": "the-ark.jpg",
+      "quotes": [
+        {
+          "text": "Boyd Morrison entrelaza con maestría la historia bíblica, la arqueología y el fanatismo religioso con la alta tecnología para crear una aventura apasionante.",
+          "source": "Douglas Preston, autor bestseller del New York Times"
+        },
+        {
+          "text": "Es un thriller sólido y bien escrito, lleno de acción, villanía y escapes por los pelos.",
+          "source": "Booklist"
+        }
+      ]
+    },
+    "the-elephant-keepers-children": {
+      "title": "The Elephant Keepers' Children",
+      "subtitle": "Una novela",
+      "author": "Peter Høeg",
+      "category": "nonfiction",
+      "description": "Del autor de Smilla's Sense of Snow, una novela desbordantemente inventiva sobre tres niños que deben salvar a sus padres y a la comunidad de su isla.",
+      "cover": "the-elephant-keepers-children.jpg",
+      "quotes": []
+    },
+    "the-serial-killer-whisperer": {
+      "title": "The Serial Killer Whisperer",
+      "subtitle": "",
+      "author": "Pete Earley",
+      "category": "nonfiction",
+      "description": "La historia real de un adolescente que, tras sufrir una lesión cerebral traumática, descubrió una inquietante capacidad para conectar con asesinos en serie encarcelados.",
+      "cover": "the-serial-killer-whisperer.jpg",
+      "quotes": []
+    },
+    "the-faithful-scribe": {
+      "title": "The Faithful Scribe",
+      "subtitle": "",
+      "author": "Shahan Mufti",
+      "category": "nonfiction",
+      "description": "Una narrativa de gran alcance que recorre las historias entrelazadas de Pakistán y Estados Unidos a través de la historia de una familia.",
+      "cover": "the-faithful-scribe.jpg",
+      "quotes": []
+    },
+    "the-gettem-guide": {
+      "title": "The Get 'Em Girls' Guide to the Power of Cuisine",
+      "subtitle": "Recetas perfectas para darle sabor a tu vida amorosa",
+      "author": "Shakara Bridgers, Jeniece Isley, and Joan A. Davis",
+      "category": "nonfiction",
+      "description": "Un libro de cocina con actitud que mezcla recetas deliciosas con consejos de relaciones y tips para recibir invitados.",
+      "cover": "the-gettem-guide.jpg",
+      "quotes": []
+    }
+  }
+}

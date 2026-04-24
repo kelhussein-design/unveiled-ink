@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "lang": "en",
+    "html_lang": "en",
+    "locale": "en_US",
+    "page_title": "Unveiled Ink — Sulay Hernandez | Book Development & Editorial Consulting",
+    "page_description": "Book and manuscript editing, ghostwriting, collaboration, and editorial consulting by Sulay Hernandez — over 20 years in trade publishing.",
+    "og_title": "Unveiled Ink — Sulay Hernandez | Book Development & Editorial Consulting",
+    "og_description": "Over 20 years shaping bestsellers, memoirs, and award-winning narratives. Book development, editing, ghostwriting, and editorial consulting.",
+    "twitter_title": "Unveiled Ink — Sulay Hernandez",
+    "twitter_description": "Book development & editorial consulting. Over 20 years shaping bestsellers, memoirs, and award-winning narratives."
+  },
+  "ui": {
+    "skip_to_content": "Skip to content",
+    "nav": {
+      "home_aria": "Unveiled Ink — Home",
+      "toggle_aria": "Toggle menu",
+      "portfolio": "Portfolio",
+      "testimonials": "Testimonials",
+      "philosophy": "Philosophy",
+      "about": "About",
+      "services": "Services",
+      "contact": "Get in Touch",
+      "lang_toggle_aria": "Switch language"
+    },
+    "hero": {
+      "scroll": "Scroll"
+    },
+    "portfolio": {
+      "section_label": "Selected Projects",
+      "title": "A portfolio spanning genres",
+      "subtitle": "Fiction, nonfiction, memoir, ghostwriting, and more — projects that have reached bestseller lists and earned critical acclaim.",
+      "filters": {
+        "all": "All Projects",
+        "recent": "Recent & Forthcoming",
+        "literary": "Literary Fiction",
+        "popular": "Popular Fiction",
+        "nonfiction": "Nonfiction"
+      },
+      "forthcoming_label": "Forthcoming"
+    },
+    "testimonials": {
+      "section_label": "Testimonials",
+      "prev_aria": "Previous testimonial",
+      "next_aria": "Next testimonial",
+      "nav_aria": "Testimonial navigation",
+      "goto_aria": "Go to testimonial"
+    },
+    "about_labels": {
+      "education": "Education",
+      "languages": "Languages",
+      "location": "Location"
+    },
+    "contact_labels": {
+      "email": "Email",
+      "location": "Location"
+    },
+    "form": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "referral": "How did you hear about me?",
+      "referral_placeholder": "Select an option",
+      "referral_search": "Web Search",
+      "referral_referral": "Referral",
+      "referral_social": "Social Media",
+      "referral_other": "Other",
+      "honeypot_label": "Don't fill this out:",
+      "submit": "Send Message"
+    },
+    "modal": {
+      "close_aria": "Close",
+      "dialog_aria": "Book details"
+    },
+    "footer": {
+      "tagline": "Book Development & Editorial Consulting",
+      "copyright": "© 2026 Unveiled Ink. All rights reserved."
+    }
+  },
+  "hero": {
+    "eyebrow": "Book Development & Editorial Consulting",
+    "headline_1": "You have a story.",
+    "headline_2": "I can help you tell it."
+  },
+  "about": {
+    "photo": "images/headshot.jpg",
+    "photo_credit": "Photo by Randy Ahart, Photo Pink NYC",
+    "section_label": "About",
+    "title": "Over twenty years shaping<br>bestsellers &amp; award winners",
+    "paragraphs": [
+      "Sulay Hernandez is the founder of <strong>Unveiled Ink</strong>, with more than two decades of experience in trade publishing and independent editorial practice. A former editor at <strong>Simon &amp; Schuster</strong> and senior editor at <strong>Other Press</strong>, her training began with internships at Penguin, Avalon Books, the Vigliano Literary Agency, and Kensington Books.",
+      "Over the course of her career she has developed narrative nonfiction, memoir, biography, and both commercial and literary fiction from concept to publication — with a focus on high-profile and culturally significant work. Many of her projects have become <strong>national and international bestsellers</strong> and critically acclaimed award winners.",
+      "Sulay has taught the Editorial Process for <strong>City College of New York's Publishing Certificate Program</strong> and instructed <strong>Simon &amp; Schuster's Publishing 101 Lecture Series</strong>. She is known for discretion, structural clarity, and the ability to guide complex material — and the personalities behind it — with steadiness and care."
+    ],
+    "details": {
+      "education": "B.A. & M.F.A., Sarah Lawrence College",
+      "languages": "English & Spanish",
+      "location": "Brooklyn, New York"
+    }
+  },
+  "philosophy": {
+    "section_label": "Editorial Philosophy",
+    "title": "Why I do this work",
+    "quote": "My job is to help refine the writer's voice, to help the writer clearly and effectively express his or her ideas.",
+    "paragraphs": [
+      "I am passionate about books. You have to be if you decide on a career in publishing. We're not here for the often joked about low salaries. Our story is the same across the board: We come to publishing with a love of reading, a love of stories and their power to change people's minds and, through this, (hopefully) the world. People in the industry are idealists. But our idealist hearts eventually beat up against the reality that publishing is a business, and then we have to learn to live in the intersection of art and commerce. Like everything else in life, that intersection can sometimes be unpretty and other times it's absolutely beautiful. I spent fourteen years in that place and have seen publishing take many twists and turns.",
+      "When I was an editorial assistant at Kensington, one of the best bosses I've ever had, the late Kate Duffy, Editorial Director of the Brava imprint, described, somewhat jokingly, an editor's role as the following: \"The editor represents the needs of the company to an author, and the author's needs to the company, while lying to each about the good intentions of the other.\" Kate told me there were two ways of going about the job. You're either a company's editor or a writer's editor, and God help you if you're a writer's editor. Editors love their books and strive to keep the peace, but the fact that we are salaried employees is never far from our thoughts. She already knew that I would be a writer's editor.",
+      "This leads me to why I became an editor in the first place. My parents came to New York from the Dominican Republic many years ago, and I am a born and bred New Yorker. I learned Spanish first and spoke it exclusively at home and learned English in school. In the conclave of Washington Heights, my parents never really learned to speak English, and in many ways I became their eyes, ears, and mouths. I translated everything for them. As editors, we are responsible for helping writers say what they really need and want to say. We help authors translate their thoughts for the reading world and we do this by respectfully prodding and questioning, with the understanding that we are temporarily inhabiting someone else's world. And even though I have an emotional connection to a story, I do my best to remain objective in my comments. My job is to help refine the writer's voice, to help the writer clearly and effectively express his or her ideas. The relationship between an editor and a writer cannot be described as purely professional. How could it be? It starts off with our falling in love with a manuscript and knowing we can make it even better. As many authors will attest, their editors often become their friends, staying in touch long after the books are finished.",
+      "After more than a decade working for publishers, I created Unveiled Ink because I'd rather work for the writer. My simple truth is that helping people say what they need to say makes me happy. So whether your goal is to be published by a company or to self-publish, I can promise I will do for you what I've been doing for a long time — I will help you tell your story."
+    ]
+  },
+  "skills": {
+    "section_label": "Core Expertise",
+    "title": "Key Skills",
+    "items": [
+      {
+        "name": "Ghostwriting & Collaboration",
+        "description": "Crafting compelling narratives on behalf of public figures, executives, and first-time authors — translating their voice and vision into polished manuscripts."
+      },
+      {
+        "name": "Developmental & Line Editing",
+        "description": "In-depth structural and sentence-level editing that strengthens characterization, pacing, dialogue, and narrative urgency from first draft to final manuscript."
+      },
+      {
+        "name": "Proposal Development",
+        "description": "Building compelling book proposals that capture an author's unique story and position it effectively for agents and publishers."
+      },
+      {
+        "name": "Interview-Driven Narrative",
+        "description": "Drawing out stories through deep interviewing, then shaping raw material into structured, emotionally resonant narratives."
+      }
+    ]
+  },
+  "services": {
+    "section_label": "Services",
+    "title": "How we can work together",
+    "subtitle": "Every project is unique. Fees are determined on a case-by-case basis.",
+    "items": [
+      {
+        "number": "01",
+        "name": "Developmental Edit",
+        "description": "A comprehensive review including a detailed editorial letter and manuscript notes with page-by-page comments, suggestions, and queries focused on characterization, dialogue, plot, context, and narrative urgency.",
+        "features": ["Detailed editorial letter", "Page-by-page manuscript notes", "One-hour consultation call", "Career goal discussion"]
+      },
+      {
+        "number": "02",
+        "name": "Evaluation",
+        "description": "A lighter-touch assessment with an editorial letter covering overall narrative thoughts — identifying issues like unnecessary characters, plot problems, or unresolved storylines without extensive marginalia.",
+        "features": ["Editorial letter with narrative assessment", "Key issue identification", "One-hour phone or in-person meeting", "Fee varies by project scope"]
+      },
+      {
+        "number": "03",
+        "name": "Editorial Consultation",
+        "description": "For writers not yet ready for a full edit or still working on their manuscripts. A focused review of your work-in-progress with actionable guidance to keep your project moving forward.",
+        "features": ["Review of up to 30 pages", "Scheduled 30-minute follow-up call", "Flat rate, paid upfront", "Actionable next steps"]
+      }
+    ],
+    "note": "Sulay works with novels, short story collections, memoirs, articles, and essays. If her schedule doesn't permit or another specialist is better suited, she provides referrals to trusted colleagues."
+  },
+  "contact": {
+    "section_label": "Get in Touch",
+    "title": "Let's talk about your manuscript",
+    "description": "Tell me about your writing background, provide a brief synopsis of your work, the genre you're writing in, and what kind of service interests you. Please allow up to one week for a response.",
+    "email": "Sulay@unveiledink.com",
+    "location": "Brooklyn, New York",
+    "linkedin": "https://www.linkedin.com/in/sulay-hernandez-1b230a7"
+  }
+}
